@@ -12,10 +12,7 @@ class A
 
 class B extends A
 {
-    B()
-    {
-        System.out.println(super.meth());
-    }
+    
     @Override
     public String meth()
     {
@@ -27,7 +24,6 @@ public class Main
     public static void main(String[] args)
     {
         B obj=new B();
-        System.out.println(obj.meth());
         System.out.println(obj.meth());
     }
 }
