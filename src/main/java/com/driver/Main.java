@@ -7,10 +7,15 @@ class A
         return "Invoking method from class A";
     }
 
+
 }
 
 class B extends A
 {
+    B()
+    {
+        System.out.println(super.meth());
+    }
     @Override
     public String meth()
     {
@@ -24,7 +29,5 @@ public class Main
         B obj=new B();
         System.out.println(obj.meth());
 
-        B obj1=new B();
-        System.out.println(obj1.meth());
     }
 }
