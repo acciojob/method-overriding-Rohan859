@@ -7,6 +7,6 @@ public class Main
     {
         B obj=new B();
         System.out.println(obj.meth());
-        System.out.println(obj.meth());
+
     }
 }
