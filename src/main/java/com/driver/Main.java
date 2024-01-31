@@ -4,7 +4,7 @@ package com.driver;
 
 public class Main
 {
-    public class A
+    static class A
     {
         public String meth()
         {
@@ -12,7 +12,7 @@ public class Main
         }
     }
 
-    public class B extends A
+    static class B extends A
     {
         @Override
         public String meth()
